@@ -59,7 +59,8 @@ object Expressions extends App {
     if (z > 2) "hello" else "goodbye" //This is the returned expression, the 'return' keyword is unnecessary
   }
   println(aCodeBlock)
-
+  
+  /// Exercises
   // 1. difference between "hello world" vs println("hello world")?
   "hello world" // Doesn't print to console. It's an expression with type String, not an instruction with type Unit
 
