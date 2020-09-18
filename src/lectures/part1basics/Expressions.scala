@@ -2,6 +2,7 @@ package lectures.part1basics
 
 object Expressions extends App {
 
+  ///Udemy: Lecture 2 - Expressions
   //Note: Omitting Semi-Colons from now on to play to Scala's strengths
 
   val x = 1 + 2 // Expression

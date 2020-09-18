@@ -2,7 +2,8 @@ package lectures.part1basics
 
 object ValuesVariablesTypes extends App {
 
-  ///Udemy
+
+  ///Udemy: Lecture 1 - Values, Variables and Types
   //Types and Val
   //Vals are immutable. Functional programming involves working less with variables
   val x: Int = 453; // Type declared by me
