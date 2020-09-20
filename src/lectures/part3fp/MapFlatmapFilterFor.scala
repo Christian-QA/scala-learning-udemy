@@ -2,6 +2,8 @@ package lectures.part3fp
 
 object MapFlatmapFilterFor extends App {
 
+  //Udemy: Lecture - Map, Flatmap, Filer and for-comprehensions
+
   val list = List(1,2,3)
   println(list.head)
 

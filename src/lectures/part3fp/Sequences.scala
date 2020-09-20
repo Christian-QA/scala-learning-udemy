@@ -4,6 +4,8 @@ import scala.util.Random
 
 object Sequences extends App {
 
+  //Udemy: Lecture - Sequences
+
   /// Sequences
   // A very general interface for datastructures that have a well defined order and can be indexed
   val aSequence = Seq(1,5,3,4)
