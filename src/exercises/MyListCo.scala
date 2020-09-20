@@ -25,7 +25,7 @@ package exercises
     def ++[B >: A](list: MyListCo[B]): MyListCo[B]
   }
 
-  object Empty extends MyListCo[Nothing] {
+  case object Empty extends MyListCo[Nothing] {
     def head: Nothing = throw new NoSuchElementException
     def tail: MyListCo[Nothing] = throw new NoSuchElementException
     def isEmpty: Boolean = true
@@ -39,7 +39,7 @@ package exercises
     def ++[B >: Nothing](list: MyListCo[B]): MyListCo[B] = list
   }
 
-  class Cons[+A](h: A, t: MyListCo[A]) extends MyListCo[A] {
+  case class Cons[+A](h: A, t: MyListCo[A]) extends MyListCo[A] {
     def head: A = h
     def tail: MyListCo[A] = t
     def isEmpty: Boolean = false
